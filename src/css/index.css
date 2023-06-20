@@ -1,0 +1,40 @@
+/* styling for navbar and add products */
+.mt-1{
+    background-color: hsl(220, 56%, 39%);
+  background-image: radial-gradient(650px circle at 0% 0%,
+      hsl(62, 41%, 76%) 15%,
+      hsl(218, 62%, 85%) 35%,
+     
+      transparent 100%),
+    radial-gradient(1250px circle at 100% 100%,
+      hsl(339, 44%, 76%) 15%,
+      hsl(185, 56%, 81%) 35%,
+      
+      transparent 100%);
+}
+.p-3{
+    background-image: radial-gradient(650px circle at 0% 0%,
+      hsl(13, 51%, 60%) 15%,
+      hsl(218, 25%, 57%) 35%,
+     
+      transparent 100%),
+    radial-gradient(1250px circle at 100% 100%,
+      hsl(339, 44%, 76%) 15%,
+      hsl(185, 56%, 81%) 35%,
+      
+      transparent 100%);
+}
+.fs-3{
+  color: salmon;
+  animation: img-up 2s linear infinite alternate;
+}
+/* animation to logo */
+@keyframes img-up {
+  from{
+    transform: translateX(10px);
+  }
+  to{
+    transform: translateY(6px);
+  }
+  
+}
