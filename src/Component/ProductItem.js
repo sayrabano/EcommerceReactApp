@@ -158,7 +158,7 @@ export default function ProductItem({ item }) {
           // to adding prodcut to cart
           <button
             type="button"
-            class="btn btn-outline-primary"
+            className="btn btn-outline-primary"
             style={{
               width: "9rem",
               
@@ -184,18 +184,18 @@ export default function ProductItem({ item }) {
              {/* to edit item */}
               <a
                      onClick={() => handleEdit(item)}
-                    class="text-success"
+                    className="text-success"
                   >
-                    <i class="fas fa-edit fa-lg nx-1"></i>
+                    <i className="fas fa-edit fa-lg nx-1"></i>
                   </a>
             </span>
             <span>
               {/* to delete item */}
               <a
                     onClick={() => handleDelelteProduct(item)}
-                    class="text-danger"
+                    className="text-danger"
                   >
-                    <i class="fas fa-trash fa-lg nx-1"></i>
+                    <i className="fas fa-trash fa-lg nx-1"></i>
                   </a>
             </span>
           </>

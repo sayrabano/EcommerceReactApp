@@ -54,9 +54,9 @@ export default function Cart({ item }) {
             
              <a
                     onClick={() => handlePlus(item)}
-                    class="text-success"
+                    className="text-success"
                   >
-                    <i class="fas fa-plus fa-lg nx-1"></i>
+                    <i className="fas fa-plus fa-lg nx-1"></i>
                   </a>
             <span className=" border border-1 border-dark px-4">
               {item.qty}
@@ -64,9 +64,9 @@ export default function Cart({ item }) {
           
              <a
                     onClick={() => handleMinus(item)}
-                    class="text-warning"
+                    className="text-warning"
                   >
-                    <i class="fas fa-minus fa-lg nx-1"></i>
+                    <i className="fas fa-minus fa-lg nx-1"></i>
                   </a>
           </div>
           <div className="align-self-end mt-5 ">
